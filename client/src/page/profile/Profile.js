@@ -43,7 +43,7 @@ const Profile = () => {
                       <span>{data.username}</span>
                     </div>
                     
-                            <Link>
+                            <Link to ={`/big-image/${allPhotos.id}`} >
                                 <img className='prof-all-photos' src={allPhotos.photo} alt="photo" />
                             </Link>
                         

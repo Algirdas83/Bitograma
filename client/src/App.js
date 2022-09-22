@@ -7,6 +7,7 @@ import Login from './page/Login/Login.js'
 import Logout from './page/Logout/Logout.js'
 import Register from './page/Register/Register.js'
 import Profile from './page/profile/Profile';
+import BigImg from './page/BigImg/BigImg.js'
 import AlertContext from './context/AlertContext';
 import Alert from './components/Alert';
 import Header from './components/Header';
@@ -59,6 +60,7 @@ const App = () => {
                   <>
                     <Route path ='profile' element = {<Profile/>}/>
                     <Route path='/main-profile' element ={<MainProfile/>}/>
+                    <Route path='/big-image/:id' element = {<BigImg/>}/>
                   </>
                   }
                 </Routes>

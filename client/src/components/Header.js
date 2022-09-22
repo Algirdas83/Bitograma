@@ -16,7 +16,7 @@ const {userData} = useContext(AlertContext)
   return (
     <header className='header-container'>
         <div className='header-logo'>
-            <img className='header-img' src={image} alt="isntagram logo" />
+         <Link to='/'> <img className='header-img' src={image} alt="isntagram logo" /></Link>  
         </div>
         <nav className='nav-item'>
             <ul className='nav-list'>

@@ -1,0 +1,19 @@
+
+
+.big-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.big-img-container img {
+    width: 800px;
+    border-radius: 5px;
+}
+
+.bigImg-text{
+    background-color: white;
+    padding: 20px;
+    border:#d8e2dc solid 1px;
+    border-radius: 5px;
+}

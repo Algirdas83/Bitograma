@@ -11,7 +11,7 @@ router.get('/user-photos/:id', async (req, res) => {
     
 
     try {
-        const photos = await db.Photo.findAll({ where:{userId: req.params.id} })
+        const photos = await db.Photo.findAll({ where:{id: req.params.id} })
         res.json(photos)
 
     } catch (error) {
