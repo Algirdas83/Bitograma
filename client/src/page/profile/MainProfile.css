@@ -1,0 +1,42 @@
+.main-profile-container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.main-p1-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 70px;
+}
+.main-p2{
+
+    border-top: #d8e2dc solid 2px;
+}
+
+.main-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 30px;
+}
+
+.p1{
+    font-size: 2rem;
+}
+.p2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.user-pictures{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 10px;
+}

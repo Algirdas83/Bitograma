@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap);
+
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-form-container{
+    margin-top: 50px;
+    max-width: 500px;
+    width: 400px;
+    padding: 50px;
+    border: #d8e2dc solid 2px;
+    border-radius: 3px;
+    background-color: white;
+    
+}
+
+.insta-logo{
+    width: 70%;
+}
+
+.login-img-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.login-input{
+    height: 40px;
+    border: #d8e2dc solid 2px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.login-link{
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+
+
+.sing-in-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 500px;
+    width: 400px;
+    padding: 20px 30px;
+    border: #d8e2dc solid 2px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.sing-in-container p{
+    margin: 0;
+}
+
